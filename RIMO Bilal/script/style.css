@@ -1,0 +1,134 @@
+.welcom{
+    font-size: 2em;
+    font-style: italic;
+    font-family: serif;
+    text-align: center;
+}
+
+.presentation{
+
+	font-size: 1.2em;
+    font-style: italic;
+    font-family: serif;
+    text-align: center;
+
+}
+
+.imgVente{
+    width:400px; 
+    height:400px;
+    background-image: url("images/ecomerce.jpg");
+
+    
+}
+
+.imgTchat{
+	width:400px; 
+    height:400px;
+	background-image: url("images/tchat.jpg");
+	background-size: 100%;
+}
+
+.imgBlog{
+	width:400px; 
+  height:400px;
+	background-image: url("images/blog.jpg");
+	background-size: 100%;
+
+}
+
+.tchatimgboxgauche{
+  width:100px; 
+  height:400px;
+  background-image: url("images/tchat2.png");
+}
+
+.venteDefaultImg{
+  width:100%; 
+  height:500px;
+  background-image: url("images/shop.jpg");
+  background-size: 100% 100%;
+
+}
+
+.adminDefaultImg{
+  width:100%; 
+  height:500px;
+  background-image: url("images/admin.png");
+  background-size: 100% 100%;
+  
+}
+
+.media-left{
+  width:60px;height:50px;
+  background-image: url("images/im.png");
+
+}
+.box{
+	width:50%; 
+  height:450px;
+	margin-top: 5px;
+	margin-bottom: 60px;
+	
+}
+
+.tchatBoxGauche{
+  width: 10%;
+  height:650px;
+  background-image: url("images/tchat2.png");
+  background-repeat: no-repeat;
+  
+}
+
+.tchatBoxDroit{
+
+   width: 80%;
+}
+
+.loginTailleForm{
+  width: 30%;
+  height:30%;
+}
+
+
+
+
+.row {
+
+  margin-right: -15px;
+
+  margin-left: -15px;
+
+}
+
+
+/*
+
+[class*="col-"], footer {
+
+  background-color: lightgreen;
+
+  border: 2px solid black;
+
+  border-radius: 6px;
+
+  line-height: 40px;
+
+  text-align: center;
+
+}
+
+*/
+
+
+/* .correct donne un couleur verte aux input ne repondants aux critére de verification*/
+.incorrect {
+  border-color: red;
+  box-shadow: 0 0 15px rgba(191, 68, 68, 0.5);
+}
+/* .correct donne un couleur verte aux input repondants aux critére de verification*/
+.correct {
+  border-color: green;
+    
+
+}
